@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="3exp1.html">
+    <title>Digital forencis vlab</title>
+	<link rel="icon" href="logo_head.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<header>
+    <style>
+       @import url(3exp1.css);
+
+       #content{
+            border: 1px solid white;    
+            position: relative;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            top:10vh;
+            left:28vw;
+            width:70vw;
+           font-size:3vh;
+       }
+       
+       h1{
+        font-size:4vh;
+        position: relative;
+        width: fit-content;
+        top:10vh;
+        left:28vw;
+        text-decoration: underline;
+       }
+       @media screen and (max-width:1000px){
+            img{
+                width:250px;
+                height:150px;
+            }
+       }
+       #next{
+            position: relative;
+            top:95%;
+            left:95%;
+            font-size: 6vh;
+        }
+    </style>
+</header>
+<div id="header">
+    <i class="fa-solid fa-grip-vertical" style="color: #ffffff;"> EXPERIMENT NO:1</i>
+    <a id="home" href="1first.php"><b>Home</b></a>
+</div>
+<input type="checkbox" id="check">
+<label for="check">
+    <i class="fa-solid fa-bars-staggered" style="color: #ffffff;" id="btn"></i>
+    <i class="fa-solid fa-xmark" style="color: #fafcff;" id="cancel"></i>
+</label>
+<div class="sidepanel">
+    <a id="elements"  href="4aim.html">
+        Aim
+    </a>
+    
+    <a id="elements" class="active" href="5theory.html">
+
+        Theory
+    </a>
+    
+    <a id="elements" href="5result.html">
+
+        Result
+    </a>
+    
+    <a id="elements" href="6simulation.php">
+
+  Simulation
+    </a>
+    <a id="elements" href="grader0.html">
+        Test
+    </a>
+    <a id="elements" 
+        href="References.html">
+        Referencs
+    </a>
+</div>
+<h1><u>Theory</u></h1>
+<div id="content">
+    <p><br>Collecting the Data
+        At a minimum, we have collected the following information:</b><br>
+        -System date and time<br>
+        -A list of the users who are currently logged on<br>
+        -Time/date stamps for the entire file system<br>
+        -A list of currently running processes<br>
+        -A list of currently open sockets<br>
+        -The applications listening on open sockets<br>
+        -A list of the systems that have current or recent connections to the system<br>
+        To collect the live data in this list, we can take these steps:<br>
+        1. Execute a trusted shell.<br>
+        2. Record the system time and date.<br>
+        3. Determine who is logged on to the system.<br>
+        4. Record modification, creation, and access times of all files.<br>
+        5. Determine open ports.<br>
+        6. List applications associated with open ports.<br>
+        7. Determine the running processes.<br>
+        8. List current and recent connections.<br>
+        9. Record the system time.<br>
+        10. Record the steps taken.<br>
+        11. Record cryptographic checksums</p>
+
+<a href="5.1theory.html"><i id="next" class="fa-solid fa-circle-arrow-right fa-shake" style="color: #65011a;"></i></a>
+</div>
+</html>

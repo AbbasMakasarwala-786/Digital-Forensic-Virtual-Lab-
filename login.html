@@ -1,0 +1,168 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            border: border-box;
+        }
+
+        body {
+            background-image: url("loginpage.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+
+        }
+        #login
+        {
+            font-size: 25px;
+            color: white;
+            border: 1px solid black;
+            border-top-left-radius:25px;
+            border-bottom-left-radius:25px;
+            background-color: black;
+            width: 320px;
+            height: 380px;
+            height: 380px;
+            text-decoration: none;
+            position: absolute;
+            top:50%;
+            left: 40%;
+            transform: translate(-50%,-50%);
+            opacity:0.8;
+        }
+        /*#login {
+
+            position: absolute;
+            font-size: 25px;
+            color: white;
+            border: 1px solid black;
+            border-top-left-radius:25px;
+            border-bottom-left-radius:25px;
+            background-color: black;
+            top: 170px;
+            left: 300px;
+            padding: 4px;
+            text-decoration: none;
+            width: 320px;
+            height: 380px;
+           width: 320px;
+            height: 380px;
+        }*/
+        #kj
+        {
+            color:white;
+            font-size :100px;
+        }
+        #sidebox {
+            text-align: center;
+            position: relative;
+            left: 100%;
+            bottom:100%;
+            transform: translate(-100,-50%);
+            font-size: 70px;
+            color: white;
+            border-left: 9px solid white;
+            background-color: black;
+            width: 350px;
+            height: 380px;
+            opacity: 0.75;
+            border-top-right-radius:25px;
+            border-bottom-right-radius:25px;
+        }
+        #sidebox:hover {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            left: 100%;
+            bottom:100%;
+            transform: translate(-100,-50%);
+            font-size: 70px;
+            color: white;
+            border-left: 9px solid white;
+            background-color: black;
+            width: 350px;
+            height: 380px;
+            opacity: 1;
+            box-shadow:4px 4px rgb(184, 196, 246) ;
+        }
+
+
+        #submit {
+            position: relative;
+            left: 120px;
+            background-color: #e5e5e5;
+            border: 1px solid;
+            border-radius: 8px;
+            font-size: 20px;
+            align-items: center;
+        }
+        
+        #submit:hover {
+            position: relative;
+            left: 120px;
+            color:white;
+            border:none;
+            background-color: #000000;
+            font-size: 20px;
+            align-items: center;
+        }
+
+
+        .inputbox {
+            background-color: black;
+            border: none;
+            color: white;
+            border:none;
+            border-bottom: 4px solid whitesmoke;
+        }
+
+        #signup {
+            text-align: center;
+            font-size: 50px;
+        }
+         
+    </style>
+</head>
+<header>
+    <div id="kj"><p>KJSIT</p></div>
+</header>
+<body>
+ 
+    <div id="login">
+        <form>
+            <p id="signup">
+                <b>Sign up</b>
+            </p><br>
+            <p>Username:</p>
+            <input class="inputbox" type="text" placeholder="Name" />
+            <p><br></p>
+
+            <p>Enter Somaiya Email:</p>
+            <input class="inputbox" type="text" placeholder="Email" />
+            <p><br></p>
+
+            <p>Enter password:</p>
+            <input class="inputbox" type="password" name="password" placeholder="password">
+            <p><br></p>
+
+            <a href="1first.php"><input id="submit" type="submit" value="Submit"></a>
+        </form>
+    
+    <div id="sidebox">
+        <div>
+            <p><br>Digital Forencics<br> Vlab</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

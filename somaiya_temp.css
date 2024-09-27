@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Gilroy';
+}
+
+#logo {
+    float: left;
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+#header {
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border: 2px solid rgb(153, 31, 0);
+    background-color: rgb(153, 31, 0);
+    height: 72px;
+}
+
+footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:auto;
+    background-color: rgb(153, 31, 0);
+    color: rgb(153, 31, 0);
+    text-align: center;
+
+}
+
+@media screen and (max-width: 500px) {}
+
+@media screen and (min-width: 500px) {}

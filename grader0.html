@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="3exp1.html">
+ 
+    <title>Digital forencis vlab</title>
+	<link rel="icon" href="logo_head.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<header>
+    <style>
+        @import url(3exp1.css);
+
+        #content {
+            overflow-x: hidden;
+            overflow-y: auto;
+            border: 1px solid white;
+            position: relative;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            top: 10vh;
+            left: 28vw;
+            width: 70vw;
+            container-type: inline-size;
+            font-size: 3vh;
+            z-index: 0.8;
+        }
+
+        h1 {
+            font-size: 4vh;
+            position: relative;
+            width: fit-content;
+            top: 10vh;
+            left: 35vw;
+        }
+        #next{
+            position: absolute;
+            top:40%;
+            left:55%;
+            font-size: 5vh;
+            text-decoration: none;
+            width: fit-content;
+            background-color: rgb(153,31,0);
+            color: #ffffff;
+            border-radius: 20%;
+            padding:2px;
+            border:5px solid black;
+        }
+        #next:hover{
+            color:black;
+        }
+    </style>
+</header>
+<div id="header">
+    <i class="fa-solid fa-grip-vertical" style="color: #ffffff;">Experiment No:1</i>
+    <a id="home" href="1first.php"><b>Home</b></a>
+</div>
+<input type="checkbox" id="check">
+<label for="check">
+    <i class="fa-solid fa-bars-staggered" style="color: #ffffff;" id="btn"></i>
+    <i class="fa-solid fa-xmark" style="color: #fafcff;" id="cancel"></i>
+</label>
+<div class="sidepanel">
+    <a id="elements" class="active"
+        href="C:\Users\91835\OneDrive\Desktop\projectclg\proohtml\digital_forencis_vlab\4aim.html">
+        Aim
+    </a>
+
+    <a id="elements" href="5theory.html">
+
+        Theory
+    </a>
+
+    <a id="elements" href="5result.html">
+
+        Result
+    </a>
+
+    <a id="elements" href="6simulation.php">
+
+        Simulation
+    </a>
+    <a id="elements" href="grader.php">
+        Test
+    </a>
+    <a id="elements" 
+        href="References.html">
+        Referencs
+    </a>
+</div>
+<h1><u>Instructions</u></h1>
+<div id="content">
+    <pre>
+        1) You will be given 2 minutes to complete 5 question.
+        2) Once you have submited the answers you cannot change it.
+        3) You should login with the <u>lab login </u> to record your marks.
+    </pre>
+</div>
+<a id="next" href="grader.php">Start</a>
+</html>
